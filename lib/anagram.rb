@@ -10,6 +10,7 @@ class Anagram
     
     words_arr.select do |idx|
       @word.split("").sort == idx.split("").sort
+    end
     
   end 
   
